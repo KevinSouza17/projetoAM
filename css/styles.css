@@ -153,7 +153,7 @@
     --color-gray-4 : #f7f8f7;
     --color-gray-3 : #f9faf9;
     --color-gray-2 : #fbfcfb;
-    --color-gray-1 : #fbfcfb;
+    --color-gray-1 : #000000;
     --color-white  : #ffffff;
 
   /* text
@@ -2747,7 +2747,7 @@ td:last-child {
 }
 
 .section-header.light-on-dark .text-display-title {
-    color: white;
+    color: rgb(80, 69, 69);
 }
 
 .section-header.light-on-dark::before {
@@ -4440,4 +4440,21 @@ td:last-child {
     .ss-go-top {
         right: -2rem;
     }
+}
+
+h2{
+margin: 55px;
+padding: 0;
+align-items: center;
+justify-content: space-between;
+display: ;
+
+}
+
+nav, .s-header__logo
+
+{
+    height: auto;
+    
+
 }
